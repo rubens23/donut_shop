@@ -18,7 +18,25 @@
 			<p>Top Pot Donuts are a chain of donut shops located 
 				in downtown Seattle, Capitol Hill, South Lake Union, Wedgewood, and Ballard. The table below calculates how many customers each donut shop gets per hour as well as how many donuts they make per hour.</p>
 		</section>
-		<table>
+
+		<section>
+			<p>Below you may enter in a new location for Top Pot Donuts and the amount of customers they recieve per hour as well as the amount of donuts they make per customer and see how it generates completely new information for the new Donut Shop.</p>
+		</section>
+		
+		<form id="donut-form">
+			<label name="nameForm">Location Name: </label>
+			<input id="nameForm" type="text">
+			<label name="minCustomersForm">Minimum Customers per hour: </label>
+			<input id="minCustomersForm" type="text">
+			<label name="maxCustomersForm">Maximum Customers per hour: </label>
+			<input id="maxCustomersForm" type="text">
+			<label name="avgDonutsForm">Average Donuts per customer: </label>
+			<input id="avgDonutsForm" type="text">
+			<button id="donut-button" type="submit">Create new Donut Shop!</button>
+		</form>
+
+
+		<table id="donut-table" border="3">
 			<thead>
 				<tr>
 					<th>Location</th>
@@ -62,7 +80,6 @@
 		</table>
 	
 	<script src="donutshop.js"></script>
-	<table id="add-row"></table>
 	
 </body>
 </html>
