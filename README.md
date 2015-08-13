@@ -4,3 +4,6 @@ I created two files, one html and one javascript to make my donut shop assignmen
 
 8/11/15
 Added user input for name, minCustomers, maxCustomers, avgDonuts, hoursOfOperation. created a render function that creates new table rows. Created a submit function that creates variables based on the array. Connected these functions to my html file by filling in id attributes.
+
+8/12/15
+Added styles to my donut shop changing the background color table data, title, p tags, and added borders using css. Also added hover effects to my button and page title.
