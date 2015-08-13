@@ -1,0 +1,72 @@
+body {
+  background: #778899;
+  font-family: "Comic Sans MS";
+}
+
+h2 {
+  color: #000080;
+  font-size: 55px;
+  font-family: "Arial Black";
+  font-weight: bold;
+  font-style: italic;
+  background-color: #00FF00
+}
+
+h2:hover {
+    -webkit-box-shadow: 10px 10px 6px 6px rgba(0, 0, 0, 0.3);
+    box-shadow: 10px 10px 6px 6px rgba(0, 0, 0, 0.3);
+}
+
+ p {
+  font-weight: bold;
+  color: #000080;
+  border: 3px solid #00FF00;
+}
+
+table, th, td {
+   border: 2px solid black;
+ }
+
+td {
+  text-align: center;
+  font-weight: bold;
+  background-color: #000080;
+  color: #00FF00;
+}
+
+th {
+    text-align: left;
+}
+
+thead {
+  font-weight; bold;
+  background-color: green;
+}
+
+th {
+    background-color: #00FF00;
+    color: #000080;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form {
+  font-weight: bold;
+  color: #00FF00;
+  background-color: #000080;
+}
+
+button {
+  font-weight: bold;
+  color: #000080;
+  background-color: #00FF00;
+}
+
+button:hover {
+  color:#00FF00;
+  background-color: #000080;
+  }
