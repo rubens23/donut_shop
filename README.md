@@ -7,3 +7,6 @@ Added user input for name, minCustomers, maxCustomers, avgDonuts, hoursOfOperati
 
 8/12/15
 Added styles to my donut shop changing the background color table data, title, p tags, and added borders using css. Also added hover effects to my button and page title.
+
+8/13/15
+Added a fixed layout to my donut shop with an unordered list for my nav bar at the top right. The nav bar is also a fixed element which scrolls through the whole page as the user goes up and down. My second paragraph is my relative element and my form is my absolute element.

@@ -3,13 +3,55 @@ body {
   font-family: "Comic Sans MS";
 }
 
+#cssmenu {
+  background: #00FF00;
+  width: 400px;
+  position: fixed;
+  top: 0;
+  right: 0;
+
+}
+
+#cssmenu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  display: block;
+  zoom: 1;
+  font-family: Arial black; 
+}
+
+#cssmenu ul:after {
+  content: " ";
+  display: block;
+  font-size: 0;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+#cssmenu ul li {
+  display: inline-block;
+  padding: 10px;
+  margin: 0;
+}
+
+#cssmenu.align-left ul li {
+  float: right;
+}
+
+#cssmenu ul li a:hover {
+  color: #333333;
+}
+
 h2 {
   color: #000080;
   font-size: 55px;
   font-family: "Arial Black";
   font-weight: bold;
   font-style: italic;
-  background-color: #00FF00
+  background-color: #00FF00;
 }
 
 h2:hover {
@@ -21,6 +63,13 @@ h2:hover {
   font-weight: bold;
   color: #000080;
   border: 3px solid #00FF00;
+  font-size: 20px;
+  width: 400px;
+  float: right;
+}
+
+.para1 {
+  float: left;
 }
 
 table, th, td {
@@ -54,11 +103,24 @@ img {
     margin-right: auto;
 }
 
+.relative {
+  position: relative;
+  width: 400px;
+  font-size: 20px;
+  float: right;
+}
+.absolute {
+  float: right;
+  clear: right;
+}
+
 form {
   font-weight: bold;
   color: #00FF00;
   background-color: #000080;
   border: 3px solid #00FF00;
+  width: 300px;
+  clear: right;
 }
 
 button {
@@ -71,3 +133,7 @@ button:hover {
   color:#00FF00;
   background-color: #000080;
   }
+
+ul {
+  margin: left;
+}
