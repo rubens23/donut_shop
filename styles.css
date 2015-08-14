@@ -7,16 +7,16 @@ body {
   background: #00FF00;
   width: 400px;
   position: fixed;
-  top: 0;
+  top: 1;
   right: 0;
-
 }
 
 #cssmenu ul {
   list-style: none;
   margin: 0;
+  margin-right: 2;
   padding: 0;
-  line-height: 1;
+  line-height: 3.65;
   display: block;
   zoom: 1;
   font-family: Arial black; 
@@ -52,9 +52,17 @@ h2 {
   font-weight: bold;
   font-style: italic;
   background-color: #00FF00;
+  width: 1030px;
+  margin-top: 0;
+  margin-left: 0;
 }
 
 h2:hover {
+    -webkit-box-shadow: 10px 10px 6px 6px rgba(0, 0, 0, 0.3);
+    box-shadow: 10px 10px 6px 6px rgba(0, 0, 0, 0.3);
+}
+
+#cssmenu:hover {
     -webkit-box-shadow: 10px 10px 6px 6px rgba(0, 0, 0, 0.3);
     box-shadow: 10px 10px 6px 6px rgba(0, 0, 0, 0.3);
 }
@@ -68,10 +76,35 @@ h2:hover {
   float: right;
 }
 
+.donut {
+  float: left;
+  animation: spin 10s linear infinite;
+  animation-play-state: paused;
+  }
+
+.donut:hover {
+  animation-play-state: running;
+}
+
+@keyframes spin {
+  100% {transform: rotate(1turn); }
+}
+
 .para1 {
   float: left;
 }
 
+.para1:hover {
+  -webkit-transform: rotateZ(30deg);
+  -ms-transform: rotateZ(30deg);
+  transform: rotateZ(30deg);
+}
+
+#para2:hover {
+  -webkit-transform: rotateZ(-30deg);
+  -ms-transform: rotateZ(-30deg);
+  transform: rotateZ(-30deg);
+}
 table, th, td {
    border: 2px solid black;
  }
@@ -103,6 +136,12 @@ img {
     margin-right: auto;
 }
 
+.fade:hover {
+  -webkit-opacity: 1;
+  -moz-opacity: 1;
+  opacity: 1;
+}
+
 .relative {
   position: relative;
   width: 400px;
@@ -121,6 +160,12 @@ form {
   border: 3px solid #00FF00;
   width: 300px;
   clear: right;
+}
+
+#donut-form:hover {
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
 }
 
 button {
