@@ -12,4 +12,5 @@ Added styles to my donut shop changing the background color table data, title, p
 Added a fixed layout to my donut shop with an unordered list for my nav bar at the top right. The nav bar is also a fixed element which scrolls through the whole page as the user goes up and down. My second paragraph is my relative element and my form is my absolute element.
 
 8/14/14
-Added animations to my donut shop by making the donut in the middle of the page spin when the user hovers their mouse over it. I also transformed my paragraphs to rotate 30 degrees on each side when you hover over it. Also the submit form grows bigger when you hover over it.
+Added animations to my donut shop by making the donut in the middle of the page spin when the user hovers their mouse over it. I also transformed my paragraphs to rotate 30 degrees on each side when you hover over it. Also the submit form grows bigger when you hover over it. I referneced the first link provided in the assignment description to make elements grow and rotate. Also a link found on codepen by a classmate to help make the donut spin. 
+http://codepen.io/valhead/pen/rfump
